@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Externa</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+
+        <h1>Encuentra tu Pokémon favorito</h1>
+
+        <form action="">
+            <input type="text" placeholder="Introduce el nombre" id="nombreInput" required>
+            <button type="button" onclick="obtener()">Obtener</button>
+        </form>
+
+        <div class="container-padre">
+            <div class="container-img">
+                <h2>Imagen</h2>
+                <div>
+                    <img id="img" src="" alt="Pokémon">
+                </div>
+            </div>
+
+            <div class="container-datos">
+                <h2>Detalles</h2>
+                <div>
+                    <p id="nombre"></p>
+                    <ul id="habilidades"></ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
